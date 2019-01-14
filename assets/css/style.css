@@ -1,0 +1,45 @@
+ body {
+      font-family: 'Fondamento', Georgia, 'Times New Roman', serif, cursive;
+      align-content: center;      
+      color:lightblue;      
+      font-size: 15px;
+      font-weight: bold;
+      text-align:center;
+      vertical-align:center;
+      line-height: 25px;  
+ }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      background-color: black;   
+  }
+
+    .wrapper {      
+      width: 1024px;
+      height: 768px;
+      padding-top: 100px;      
+      background-image: url("../images/background.jpg");
+      background-repeat: no-repeat;
+      padding-left: 50px;
+    }
+
+    #wins {
+      color: lightcoral;
+      font-size: 20px;
+    }
+
+    #losses {
+      color: lightcoral;
+      font-size: 20px;
+    }
+
+    #attempts {
+      color: lightcoral;
+      font-size: 20px;
+    }
+
+    #playerGuess {
+      color: lightcoral;
+      font-size: 20px;
+    }
